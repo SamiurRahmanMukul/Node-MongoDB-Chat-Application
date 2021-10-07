@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="author" content="Sumit Saha" />
+    <meta name="owner" content="learnwithsumit.com" />
+    <title>Inbox</title>
+    <link rel="shortcut icon" href="./images/favicon.png" />
+    <link rel="stylesheet" href="./stylesheets/toastify.css" />
+    <link rel="stylesheet" href="./stylesheets/style.css" />
+    <script src="./js/toastify.js"></script>
+  </head>
+  <body>
+    <div class="menu">
+      <div class="menu-item"><a href="/inbox">Inbox</a></div>
+      <div class="menu-item"><a href="/users">Users</a></div>
+      <div class="menu-item"><a href="/">Login</a></div>
+    </div>
+    <div id="chat-container">
+      <div id="search-container">
+        <input type="text" placeholder="Search" />
+      </div>
+      <div id="conversation-list">
+        <div class="conversation active">
+          <img src="./images/user1.png" alt="Sumit" />
+          <div class="title-text">Sumit Saha</div>
+          <di class="created-date"> Apr 16 </di>
+          <div class="conversation-message">This is a message</div>
+        </div>
+        <div class="conversation">
+          <img src="./images/user2.png" alt="Sumit" />
+          <div class="title-text">Sumit Saha</div>
+          <di class="created-date"> Apr 16 </di>
+          <div class="conversation-message">This is a message</div>
+        </div>
+      </div>
+      <div id="new-message-container">
+        <a href="#">+</a>
+      </div>
+      <div id="chat-title">
+        <span>Sumit</span>
+        <img src="./images/trash.png" alt="Delete Conversation" />
+      </div>
+      <div id="chat-message-list">
+        <div class="message-row other-message">
+          <div class="message-content">
+            <img src="./images/user1.png" alt="Sumit" />
+            <div class="message-text">Ok then</div>
+            <div class="message-time">Apr 16</div>
+          </div>
+        </div>
+        <div class="message-row you-message">
+          <div class="message-content">
+            <div class="message-text">Lorem ipsum dolor sit amet</div>
+            <div class="message-time">Apr 16</div>
+          </div>
+        </div>
+      </div>
+      <div id="chat-form">
+        <img src="./images/attachment.png" alt=Add Attachment"" />
+        <input type="text" placeholder="Type a message" />
+      </div>
+    </div>
+
+    <div class="modal-wrapper">
+      <div class="modal">
+        <a href="#" class="modal-close">+</a>
+        <div class="modal-title">
+          <h2>Create New Conversation</h2>
+        </div>
+        <div class="modal-body">
+          <form>
+            <input type="text" placeholder="Name" />
+            <input type="text" placeholder="Username" />
+            <input type="button" value="Submit" />
+          </form>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
