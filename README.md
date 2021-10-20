@@ -13,8 +13,8 @@ Hello 👋, I'm `Samiur Rahman Mukul` at this public ⛣ repository i will build
 
 |  #  | Resource / Projects                                                                                                              | Live Preview                                                                                           |
 | :-: | -------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------ |
-| 01  | [Chat Application](https://github.com/SamiurRahmanMukul/Node-MongoDB-Chat-Application/)                                           | [👉 Click Here](https://express-mongodb-chat-app.herokuapp.com/)                                        |
-| 02  | [Chat Frontend (HTML Template)](https://github.com/SamiurRahmanMukul/Node-MongoDB-Chat-Application/tree/main/%5Estatic-frontend/) | [👉 Click Here](https://samiurrahmanmukul.github.io/Node-MongoDB-Chat-Application/%5Estatic-frontend/) |
+| 01  | [Chat Application](https://github.com/SamiurRahmanMukul/Node-MongoDB-Chat-Application)                                           | [👉 Click Here](https://mukul-chat-application.herokuapp.com)                                        |
+| 02  | [Chat Frontend (HTML Template)](https://github.com/SamiurRahmanMukul/Node-MongoDB-Chat-Application/tree/static-fronted) | [👉 Click Here](https://samiurrahmanmukul.github.io/Node-MongoDB-Chat-Application/) |
 
 ## Using packages
 
